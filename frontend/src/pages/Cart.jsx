@@ -7,8 +7,7 @@ import { assets } from "../assets/assets";
 import CartTotal from "../components/CartTotal";
 
 const Cart = () => {
-  const { products, currency, CartItem, updateQuantity, navigate } =
-    useContext(ShopContext);
+  const { products, currency, CartItem, updateQuantity, navigate } = useContext(ShopContext);
   const [CartData, setCartData] = useState([]);
 
   useEffect(() => {
